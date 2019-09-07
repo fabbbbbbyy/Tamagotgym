@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &490324599778113014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 490324599778112904}
+  - component: {fileID: 490324599778112905}
+  - component: {fileID: 490324599778112907}
+  - component: {fileID: 490324599778112906}
+  m_Layer: 0
+  m_Name: MANAGER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &490324599778112904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490324599778113014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 490324600823426437}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &490324599778112905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490324599778113014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb70d2685e7501948ba93336fa1f2e75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabAchievement: {fileID: 0}
+  resourcesFolderPathWithAchievements: Achievements
+  resetAllProgressAchievementsInStart: 1
+  achievement_header: {fileID: 0}
+  achievement_icon: {fileID: 0}
+  useMultipleAchievements: 0
+  achievementsGrid: {fileID: 0}
+  prefabNameHeader: 
+  prefabNameIcon: 
+  timeOfDestroying: 5
+--- !u!114 &490324599778112907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490324599778113014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c1a67ba8cbdcd44d9926f8e2cd2fd16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievementUnlockSound: {fileID: 0}
+--- !u!114 &490324599778112906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490324599778113014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7009c5c0b713b284e97232153eceaeea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countProgress: 20
+--- !u!1001 &1982995325090175257
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 490324599778112904}
+    m_Modifications:
+    - target: {fileID: 2110209231276061851, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+        type: 3}
+      propertyPath: m_Name
+      value: LIST
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110209231276061852, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110209231276061852, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110209231276061852, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110209231276061852, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110209231276061852, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110209231276061852, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110209231276061852, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110209231276061852, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110209231276061852, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110209231276061852, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110209231276061852, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110209231276061853, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+        type: 3}
+      propertyPath: achievementsGrid
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3124fb8821ca3eb48b3489ae3c1a802b, type: 3}
+--- !u!4 &490324600823426437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2110209231276061852, guid: 3124fb8821ca3eb48b3489ae3c1a802b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1982995325090175257}
+  m_PrefabAsset: {fileID: 0}
